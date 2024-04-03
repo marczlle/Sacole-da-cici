@@ -1,0 +1,28 @@
+#img1, #img2{
+    width: 50%;
+    border-radius: 20px;
+}
+
+#img1{
+    margin-left: -2rem;
+}
+
+#img2{
+    margin-top: -35.6rem;
+    margin-left: 48rem;
+    height: 90%;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    color: var(--yellow);
+    margin-top: -10rem;
+    margin-left: 15rem;
+}
+
+.textogrupo p{
+    font-family: "Nunito", sans-serif;
+    color:var(--blueok);
+    font-weight: 600;
+    margin-left: 16rem;
+}

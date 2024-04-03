@@ -1,0 +1,50 @@
+@import url(./background.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);
+@import url(swot.css);
+@import url(grupo.css);
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #f7c911;
+    --blueok: #4e2336;
+  }
+
+button, a {
+    color: var(--text);
+    font-family: "Nunito", sans-serif;
+    /* 400 1rem */
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  #app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+  }
+
+
+
